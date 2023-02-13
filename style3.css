@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;900&display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  text-align: justify;
+  
+}
+body, html{
+  height:100%;
+  scroll-behavior:scroll;
+  scroll-behavior:smooth;
+  transition: all .3s ease-in-out;
+}
+p{
+  font-size:20px;
+}
+
+p, li, pre, h4, h3{
+  font-family: 'Fira Sans', sans-serif;
+}
+#data-type{
+  margin:0 auto;
+}
+.card{
+  width:100%;
+  box-shadow:0 0 4px rgba(0,0,0,0.25);
+  padding:2rem;
+}
+.card .card-body{
+  display:flex;
+  flex-direction:column;
+  align-content:center;
+  align-items:center;
+  justify-content:center;
+}
+.card-header h4{
+  padding:1rem;
+}
+section{
+    width: 500px;
+    margin: 30px;
+}
